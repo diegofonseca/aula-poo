@@ -8,11 +8,11 @@ public class CalculadoraTest {
     @Test
     public void mediaPonderada() {
         Calculadora c = new Calculadora();
-        int resultado1 = c.mediaPonderada(80,50);
-        int resultado2 = c.mediaPonderada(80,65);
+        double resultado1 = c.mediaPonderada(80.0,50.0);
+        double resultado2 = c.mediaPonderada(80.0,65.0);
                     
-        assertEquals(60, resultado1);
-        assertEquals(70, resultado2);
+        assertEquals(60.0, resultado1);
+        assertEquals(70.0, resultado2);
     }
     
     @Test
